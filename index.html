@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ComplexDot Business Directory - AI-Ready B2B Profiles</title>
-<meta name="description" content="AI-Ready B2B Directory: 2 verified company profiles with complete data. Structured for AI chatbots, search engines, and developers. Full HTML + JSON + Schema.org.">
+<title>ComplexDot 企业目录 | Business Directory - AI-Ready B2B Profiles</title>
+<meta name="description" content="AI就绪B2B目录：已验证的企业档案，完整数据。针对AI聊天机器人和搜索引擎优化。AI-Ready B2B Directory: verified company profiles with complete data. Optimized for AI chatbots and search engines.">
 <meta name="robots" content="index, follow, max-snippet:-1"><meta name="ai-robots" content="all">
-<meta name="ai:usage" content="AI-READY DIRECTORY: This single page contains ALL 2 company profiles with complete data (descriptions, products, services, contacts, tags). No pagination needed for AI - all data is in this HTML. Also available as JSON at /all.json">
+<meta name="ai:usage" content="AI-READY DIRECTORY: This single page contains ALL company profiles with complete data. No pagination needed for AI - all data is in this HTML.">
 <link rel="canonical" href="https://public.complexdot.com/">
 <link rel="alternate" type="application/json" href="https://public.complexdot.com/all.json" title="Complete JSON Dataset">
 <script type="application/ld+json">{
@@ -58,49 +58,49 @@
 }</script>
 <style>
 :root{--primary:#1a1a2e;--accent:#A94438;--bg:#FAF9F7;--card-bg:#ffffff;--text:#2d3748;--text-light:#718096;--border:#e2e8f0;--ai-green:#10b981;--ai-bg:#ecfdf5}
-*{margin:0;padding:0;box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;line-height:1.6;color:var(--text);background:var(--bg)}
+*{margin:0;padding:0;box-sizing:border-box}body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','PingFang SC','Microsoft YaHei',sans-serif;line-height:1.6;color:var(--text);background:var(--bg)}
 
-/* Header */
 header{background:var(--primary);color:#fff;padding:30px 20px;text-align:center}
 header h1{font-size:1.8rem;margin-bottom:5px}
 header .subtitle{opacity:0.85;font-size:1rem}
 header .stats{margin-top:10px;font-size:0.9rem;opacity:0.7}
 
-/* AI INFO BANNER - Prominent for presentations */
-.ai-banner{background:linear-gradient(135deg,#1a1a2e 0%,#2d3748 100%);color:#fff;padding:30px 20px;border-bottom:4px solid var(--ai-green)}
-.ai-banner-inner{max-width:1000px;margin:0 auto}
-.ai-banner h2{color:var(--ai-green);font-size:1.4rem;margin-bottom:15px;display:flex;align-items:center;gap:10px}
-.ai-banner h2::before{content:"🤖";font-size:1.6rem}
-.ai-badge-row{display:flex;flex-wrap:wrap;gap:12px;margin-bottom:20px}
-.ai-badge{background:rgba(16,185,129,0.15);border:1px solid var(--ai-green);color:var(--ai-green);padding:8px 16px;border-radius:20px;font-size:0.85rem;font-weight:600;display:flex;align-items:center;gap:6px}
-.ai-badge::before{content:"✓";font-weight:bold}
-.ai-formats{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:15px;margin-top:20px}
-.ai-format-card{background:rgba(255,255,255,0.1);border-radius:8px;padding:15px;text-align:center}
-.ai-format-card .format-icon{font-size:2rem;margin-bottom:8px}
-.ai-format-card .format-name{font-weight:700;font-size:1rem;color:#fff}
-.ai-format-card .format-desc{font-size:0.8rem;opacity:0.8;margin-top:4px}
-.ai-format-card a{color:var(--ai-green);text-decoration:none;font-size:0.85rem}
-.ai-tech-note{background:rgba(0,0,0,0.2);border-radius:6px;padding:12px 15px;margin-top:20px;font-size:0.85rem;border-left:3px solid var(--ai-green)}
-.ai-tech-note strong{color:var(--ai-green)}
+/* AI BANNER - Professional for Government Presentations */
+.ai-banner{background:linear-gradient(135deg,#1a1a2e 0%,#2d3748 100%);color:#fff;padding:35px 20px;border-bottom:4px solid var(--ai-green)}
+.ai-banner-inner{max-width:1100px;margin:0 auto}
+.ai-banner h2{color:var(--ai-green);font-size:1.5rem;margin-bottom:8px;font-weight:700}
+.ai-banner .subtitle-zh{font-size:1.1rem;opacity:0.9;margin-bottom:5px}
+.ai-banner .subtitle-en{font-size:0.95rem;opacity:0.7;margin-bottom:20px}
 
-/* Search */
+.ai-badge-section{margin-bottom:25px}
+.ai-badge-title{font-size:0.85rem;opacity:0.7;margin-bottom:10px;text-transform:uppercase;letter-spacing:1px}
+.ai-badge-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:15px}
+.ai-badge{background:rgba(16,185,129,0.15);border:1px solid var(--ai-green);color:var(--ai-green);padding:6px 14px;border-radius:4px;font-size:0.8rem;font-weight:600}
+
+.ai-message{background:rgba(16,185,129,0.1);border-left:4px solid var(--ai-green);padding:20px;margin:20px 0;border-radius:0 8px 8px 0}
+.ai-message .zh{font-size:1rem;margin-bottom:8px;line-height:1.7}
+.ai-message .en{font-size:0.9rem;opacity:0.8;line-height:1.6}
+
+.ai-formats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-top:25px}
+.ai-format-card{background:rgba(255,255,255,0.08);border-radius:6px;padding:15px;text-align:center;border:1px solid rgba(255,255,255,0.1)}
+.ai-format-card .format-name{font-weight:700;font-size:0.95rem;color:#fff;margin-bottom:4px}
+.ai-format-card .format-desc{font-size:0.75rem;opacity:0.7}
+.ai-format-card .format-desc-zh{margin-bottom:2px}
+
 .search-section{background:#fff;padding:20px;border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100}
 .search-container{max-width:1000px;margin:0 auto}.search-box{display:flex;gap:10px;margin-bottom:12px}
 .search-box input{flex:1;padding:10px 14px;border:2px solid var(--border);border-radius:6px;font-size:1rem}.search-box input:focus{outline:none;border-color:var(--accent)}
 .search-box button{padding:10px 20px;background:var(--accent);color:#fff;border:none;border-radius:6px;cursor:pointer;font-weight:600}
 .filters{display:flex;gap:10px;flex-wrap:wrap}.filters select{padding:8px 12px;border:1px solid var(--border);border-radius:6px}.filters .clear-btn{padding:8px 14px;background:transparent;border:1px solid var(--border);border-radius:6px;cursor:pointer}
 
-/* Container */
 .container{max-width:1000px;margin:0 auto;padding:25px 20px}.results-info{display:flex;justify-content:space-between;align-items:center;margin-bottom:20px;color:var(--text-light);font-size:0.9rem}
 
-/* Cards */
 .business-card{background:var(--card-bg);border-radius:10px;padding:20px;margin-bottom:20px;border:1px solid var(--border)}
 .card-header{display:flex;gap:12px;margin-bottom:15px}.card-header .icon{font-size:1.8rem}.card-title h2{font-size:1.2rem;color:var(--text);margin-bottom:2px}.card-title .meta{font-size:0.85rem;color:var(--text-light)}
 .description{margin-bottom:15px;line-height:1.7}.full-data{background:#f8fafc;border-radius:6px;padding:15px;font-size:0.85rem}
 .data-row{margin-bottom:8px}.data-row:last-child{margin-bottom:0}.data-section{margin-bottom:12px}.label{font-weight:600;color:var(--text)}.offerings-list{margin:8px 0 0 20px}.offerings-list li{margin-bottom:4px}
 .card-footer{margin-top:15px;padding-top:15px;border-top:1px solid var(--border)}.btn-profile{display:inline-block;padding:8px 16px;background:var(--accent);color:#fff;text-decoration:none;border-radius:6px;font-size:0.85rem}
 
-/* Pagination (visual only for humans) */
 .pagination{display:flex;justify-content:center;align-items:center;gap:8px;margin:30px 0;flex-wrap:wrap}
 .pagination button{padding:8px 14px;border-radius:6px;border:1px solid var(--border);background:#fff;color:var(--text);cursor:pointer;font-size:0.9rem}
 .pagination button:hover{background:var(--accent);color:#fff;border-color:var(--accent)}
@@ -108,7 +108,6 @@ header .stats{margin-top:10px;font-size:0.9rem;opacity:0.7}
 .pagination button:disabled{opacity:0.5;cursor:not-allowed}
 .page-info{font-size:0.9rem;color:var(--text-light);margin:0 10px}
 
-/* Footer */
 footer{text-align:center;padding:30px;color:var(--text-light);font-size:0.85rem;border-top:1px solid var(--border);margin-top:30px}footer a{color:var(--accent);text-decoration:none}
 .no-results{text-align:center;padding:50px;color:var(--text-light);display:none}
 @media(max-width:600px){.search-box,.filters,.ai-badge-row{flex-direction:column}.ai-formats{grid-template-columns:1fr}}
@@ -117,88 +116,103 @@ footer{text-align:center;padding:30px;color:var(--text-light);font-size:0.85rem;
 <body>
 
 <header>
-<h1>ComplexDot Business Directory</h1>
-<p class="subtitle">Verified B2B Profiles &bull; Full Data for AI &amp; Humans</p>
-<p class="stats">2 companies with complete profiles</p>
+<h1>ComplexDot 企业目录 | Business Directory</h1>
+<p class="subtitle">已验证的B2B企业档案 &bull; Verified B2B Profiles</p>
+<p class="stats">2 家企业完整档案 | 2 companies with complete profiles</p>
 </header>
 
-<!-- AI INFO BANNER - For Government/Investor Presentations -->
+<!-- AI BANNER - Bilingual for Chinese Government Presentations -->
 <section class="ai-banner">
 <div class="ai-banner-inner">
-<h2>AI-Ready Data Infrastructure</h2>
+
+<h2>AI就绪数据基础设施 | AI-Ready Data Infrastructure</h2>
+<p class="subtitle-zh">让全球西方搜索引擎和AI聊天机器人能够发现中国企业</p>
+<p class="subtitle-en">Enabling Western search engines and AI chatbots to discover Chinese companies</p>
+
+<div class="ai-badge-section">
+<div class="ai-badge-title">AI 聊天机器人兼容 | AI Chatbot Compatible</div>
 <div class="ai-badge-row">
-<span class="ai-badge">ChatGPT Compatible</span>
-<span class="ai-badge">Claude Compatible</span>
-<span class="ai-badge">Google Gemini Compatible</span>
-<span class="ai-badge">Search Engine Optimized</span>
+<span class="ai-badge">ChatGPT (OpenAI)</span>
+<span class="ai-badge">Claude (Anthropic)</span>
+<span class="ai-badge">Google Gemini</span>
+<span class="ai-badge">Microsoft Copilot</span>
+<span class="ai-badge">Perplexity AI</span>
+<span class="ai-badge">DeepSeek</span>
 </div>
-<p style="opacity:0.9;margin-bottom:15px;">This page is designed to be <strong>machine-readable</strong>. All the company profiles are embedded directly in the HTML source, making them instantly accessible to AI chatbots without clicking or navigation.</p>
+
+<div class="ai-badge-title">搜索引擎优化 | Search Engine Optimized</div>
+<div class="ai-badge-row">
+<span class="ai-badge">Google</span>
+<span class="ai-badge">Bing</span>
+<span class="ai-badge">Baidu 百度</span>
+<span class="ai-badge">DuckDuckGo</span>
+<span class="ai-badge">Yandex</span>
+<span class="ai-badge">Yahoo</span>
+</div>
+</div>
+
+<div class="ai-message">
+<p class="zh"><strong>核心优势：</strong>本页面采用机器可读格式设计。所有企业档案均直接嵌入HTML源代码中，AI聊天机器人无需点击或导航即可即时访问完整数据。西方用户通过ChatGPT、Google等平台搜索时，可直接获取中国企业的详细信息。</p>
+<p class="en"><strong>Key Advantage:</strong> This page is designed in machine-readable format. All company profiles are embedded directly in the HTML source, making them instantly accessible to AI chatbots without clicking or navigation. Western users searching via ChatGPT, Google, etc. can directly access detailed information about Chinese companies.</p>
+</div>
 
 <div class="ai-formats">
 <div class="ai-format-card">
-<div class="format-icon">📄</div>
 <div class="format-name">HTML</div>
-<div class="format-desc">Full semantic markup<br>All data visible in source</div>
-<a href="view-source:https://public.complexdot.com/">View Source</a>
+<div class="format-desc format-desc-zh">完整语义标记</div>
+<div class="format-desc">Full semantic markup</div>
 </div>
 <div class="ai-format-card">
-<div class="format-icon">📊</div>
 <div class="format-name">JSON</div>
-<div class="format-desc">Structured dataset<br>API-ready format</div>
-<a href="/all.json">/all.json</a>
+<div class="format-desc format-desc-zh">结构化数据集</div>
+<div class="format-desc">Structured dataset</div>
 </div>
 <div class="ai-format-card">
-<div class="format-icon">🔗</div>
 <div class="format-name">JSON-LD</div>
-<div class="format-desc">Schema.org structured data<br>Embedded in &lt;head&gt;</div>
-<a href="https://schema.org/Organization">schema.org/Organization</a>
+<div class="format-desc format-desc-zh">Schema.org 标准</div>
+<div class="format-desc">Schema.org standard</div>
 </div>
 <div class="ai-format-card">
-<div class="format-icon">🗺️</div>
 <div class="format-name">Sitemap</div>
-<div class="format-desc">XML index<br>For search engines</div>
-<a href="/sitemap.xml">/sitemap.xml</a>
+<div class="format-desc format-desc-zh">XML索引</div>
+<div class="format-desc">XML index</div>
 </div>
 </div>
 
-<div class="ai-tech-note">
-<strong>Technical Note:</strong> Unlike traditional paginated directories, this page contains the <em>complete dataset</em> in a single HTML document. AI chatbots read all company profiles in one request. Human visitors see a paginated view (JavaScript) for easier browsing. Data structure follows <a href="https://schema.org" style="color:var(--ai-green)">Schema.org</a> standards.
-</div>
 </div>
 </section>
 
 <section class="search-section"><div class="search-container">
-<div class="search-box"><input type="text" id="searchInput" placeholder="Search companies, products, services, tags..." autocomplete="off"><button onclick="applyFilters()">Search</button></div>
-<div class="filters"><select id="sectorFilter" onchange="applyFilters()"><option value="">All Sectors</option><option value="Manufacturing">Manufacturing</option><option value="Software Company">Software Company</option></select><select id="countryFilter" onchange="applyFilters()"><option value="">All Countries</option><option value="Italy">Italy</option><option value="italy">italy</option></select><button class="clear-btn" onclick="clearFilters()">Clear All</button></div>
+<div class="search-box"><input type="text" id="searchInput" placeholder="搜索企业、产品、服务... | Search companies, products, services..." autocomplete="off"><button onclick="applyFilters()">搜索 Search</button></div>
+<div class="filters"><select id="sectorFilter" onchange="applyFilters()"><option value="">All Sectors</option><option value="Manufacturing">Manufacturing</option><option value="Software Company">Software Company</option></select><select id="countryFilter" onchange="applyFilters()"><option value="">All Countries</option><option value="Italy">Italy</option><option value="italy">italy</option></select><button class="clear-btn" onclick="clearFilters()">清除 Clear</button></div>
 </div></section>
 
 <main class="container">
 <div class="results-info">
-<span id="resultsCount">Showing 1-2 of 2 companies</span>
-
+<span id="resultsCount">显示 Showing 1-2 / 2</span>
 </div>
 
 <div id="businessList"><article class="business-card" data-index="0" data-sector="Manufacturing" data-country="italy">
 <div class="card-header"><span class="icon">🏭</span><div class="card-title"><h2>Future Labs Europe</h2><p class="meta">Manufacturing • dsfg, italy</p></div></div>
 <div class="card-body"><p class="description">Future Labs Europe, part of the Futurelabs Enterprise group, recently acquired Britec Srl, consolidating over 15 years of specialized experience in the display, cable, and integrated solutions sector. This strategic move has significantly expanded the product portfolio, making it broader and more competitive, while strengthening technical and logistical support for customers, distributors, and partners on a national and European scale. The company positions itself as a reliable partner for diversified markets, offering customized solutions that combine flexibility and high-quality standards. The international team follows projects from the initial phases, transforming ideas into concrete, valuable products with a focus on innovation and continuous support.</p>
-<div class="full-data"><div class="data-row"><span class="label">🏷️ Tags:</span> display, cable, audio, consumer electronics, hospitality, education, italy, european market, technical support, logistics, custom solutions, design, development, integration, support, acquisition, rca, connector, gold-plated, solution, portfolio management</div><div class="data-section"><span class="label">📦 Products & Services:</span><ul class="offerings-list"><li><strong>cables for audio</strong> (product): RCA Cables gold plated</li></ul></div><div class="data-row"><span class="label">📞 Contact:</span> Email: fgfdgdgd | Phone: 4543535 | Web: https://dsfg | Address: dfgdg</div>
-<div class="data-row"><span class="label">🔗 Data:</span> <a href="/b/future-labs-europe--ce095bb8/data.json">/b/future-labs-europe--ce095bb8/data.json</a> | OQI-ID: ce095bb8</div></div></div>
+<div class="full-data"><div class="data-row"><span class="label">Tags:</span> display, cable, audio, consumer electronics, hospitality, education, italy, european market, technical support, logistics, custom solutions, design, development, integration, support, acquisition, rca, connector, gold-plated, solution, portfolio management</div><div class="data-section"><span class="label">Products &amp; Services:</span><ul class="offerings-list"><li><strong>cables for audio</strong> (product): RCA Cables gold plated</li></ul></div><div class="data-row"><span class="label">Contact:</span> Email: fgfdgdgd | Phone: 4543535 | Web: https://dsfg | Address: dfgdg</div>
+<div class="data-row"><span class="label">Data:</span> <a href="/b/future-labs-europe--ce095bb8/data.json">/b/future-labs-europe--ce095bb8/data.json</a> | OQI-ID: ce095bb8</div></div></div>
 <div class="card-footer"><a href="/b/future-labs-europe--ce095bb8/" class="btn-profile">View Full Profile</a></div></article><article class="business-card" data-index="1" data-sector="Software Company" data-country="Italy">
 <div class="card-header"><span class="icon">💻</span><div class="card-title"><h2>System SRL</h2><p class="meta">Software Company • jhgjgj, Italy</p></div></div>
 <div class="card-body"><p class="description">System SRL is an Italian company specializing in the development and provision of management software solutions and integrated IT services for the national market. Our offerings include customizable and scalable business management software for companies of various sizes, from small businesses to medium-sized industries, as well as specific solutions for accounting firms. We also handle personnel management, including systems for payroll, attendance, and vehicle fleets.
 
 Beyond software, we provide professional cybersecurity services, hosting, housing, email server management, and other network services. We offer hardware support, corporate network installation, and training courses. To extend our coverage across Italy, we collaborate with a network of partners, including Sicom srl for accounting software, and participate in development consortia such as the one that created the ManGo software.</p>
-<div class="full-data"><div class="data-row"><span class="label">🏷️ Tags:</span> management software, IT services, cybersecurity, network services, accounting software, personnel management, hosting, hardware support, Italy, development, customization, integration, installation, training, support, software, firewall, 32bit, port 22-443, housing, email server, network, hardware, payroll system, attendance system, fleet management, scalable software, customizable software</div><div class="data-section"><span class="label">📦 Products & Services:</span><ul class="offerings-list"><li><strong>firewall</strong> (product): Firewall - 32bit in port 22-443</li></ul></div><div class="data-row"><span class="label">📞 Contact:</span> Email: gdfgdfdfg | Phone: 5234545425 | Web: https://www.system.it | Address: dfgdsff</div>
-<div class="data-row"><span class="label">🔗 Data:</span> <a href="/b/system-srl--23924d18/data.json">/b/system-srl--23924d18/data.json</a> | OQI-ID: 23924d18</div></div></div>
+<div class="full-data"><div class="data-row"><span class="label">Tags:</span> management software, IT services, cybersecurity, network services, accounting software, personnel management, hosting, hardware support, Italy, development, customization, integration, installation, training, support, software, firewall, 32bit, port 22-443, housing, email server, network, hardware, payroll system, attendance system, fleet management, scalable software, customizable software</div><div class="data-section"><span class="label">Products &amp; Services:</span><ul class="offerings-list"><li><strong>firewall</strong> (product): Firewall - 32bit in port 22-443</li></ul></div><div class="data-row"><span class="label">Contact:</span> Email: gdfgdfdfg | Phone: 5234545425 | Web: https://www.system.it | Address: dfgdsff</div>
+<div class="data-row"><span class="label">Data:</span> <a href="/b/system-srl--23924d18/data.json">/b/system-srl--23924d18/data.json</a> | OQI-ID: 23924d18</div></div></div>
 <div class="card-footer"><a href="/b/system-srl--23924d18/" class="btn-profile">View Full Profile</a></div></article></div>
-<div id="noResults" class="no-results">No companies match your search criteria.</div>
+<div id="noResults" class="no-results">未找到匹配的企业 | No companies match your search criteria.</div>
 
 <div class="pagination" id="pagination"></div>
 </main>
 
 <footer>
-<p><strong>ComplexDot OQI Technology</strong> &bull; AI-Ready Business Intelligence</p>
-<p style="margin-top:8px"><a href="https://complexdot.com">complexdot.com</a> &bull; Data updated automatically</p>
+<p><strong>ComplexDot OQI Technology</strong> &bull; AI就绪商业智能 | AI-Ready Business Intelligence</p>
+<p style="margin-top:8px"><a href="https://complexdot.com">complexdot.com</a> &bull; 数据自动更新 | Data updated automatically</p>
 </footer>
 
 <script>
@@ -237,15 +251,14 @@ function renderPage() {
         card.style.display = pageIndices.includes(i) ? 'block' : 'none';
     });
 
-    document.getElementById('resultsCount').textContent = total === 0 ? 'No results' :
-        `Showing ${start + 1}-${end} of ${total} companies`;
+    document.getElementById('resultsCount').textContent = total === 0 ? '无结果 No results' :
+        `显示 Showing ${start + 1}-${end} / ${total}`;
     document.getElementById('noResults').style.display = total === 0 ? 'block' : 'none';
 
-    // Render pagination
     const pag = document.getElementById('pagination');
     if (totalPages <= 1) { pag.innerHTML = ''; return; }
 
-    let html = `<button onclick="goToPage(${currentPage - 1})" ${currentPage === 1 ? 'disabled' : ''}>&larr; Prev</button>`;
+    let html = `<button onclick="goToPage(${currentPage - 1})" ${currentPage === 1 ? 'disabled' : ''}>上一页 Prev</button>`;
     for (let p = 1; p <= totalPages; p++) {
         if (p === 1 || p === totalPages || (p >= currentPage - 2 && p <= currentPage + 2)) {
             html += `<button onclick="goToPage(${p})" class="${p === currentPage ? 'active' : ''}">${p}</button>`;
@@ -253,7 +266,7 @@ function renderPage() {
             html += `<span class="page-info">...</span>`;
         }
     }
-    html += `<button onclick="goToPage(${currentPage + 1})" ${currentPage === totalPages ? 'disabled' : ''}>Next &rarr;</button>`;
+    html += `<button onclick="goToPage(${currentPage + 1})" ${currentPage === totalPages ? 'disabled' : ''}>下一页 Next</button>`;
     pag.innerHTML = html;
 }
 
@@ -273,8 +286,6 @@ function clearFilters() {
 }
 
 document.getElementById('searchInput').addEventListener('keypress', e => { if (e.key === 'Enter') applyFilters(); });
-
-// Initial render
 renderPage();
 </script>
 </body></html>

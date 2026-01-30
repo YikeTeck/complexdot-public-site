@@ -1,15 +1,11 @@
 {
   "directory": "ComplexDot Business Directory",
+  "directory_zh": "ComplexDot 企业目录",
   "description": "AI-Ready B2B Company Profiles - Complete Dataset",
+  "description_zh": "AI就绪B2B企业档案 - 完整数据集",
   "url": "https://public.complexdot.com",
-  "generated": "2026-01-30T23:42:44.469294",
+  "generated": "2026-01-30T23:49:46.777755",
   "count": 2,
-  "formats": {
-    "html": "https://public.complexdot.com/",
-    "json": "https://public.complexdot.com/all.json",
-    "sitemap": "https://public.complexdot.com/sitemap.xml"
-  },
-  "ai_note": "This dataset is optimized for AI consumption. All company data is also embedded in the HTML homepage for chatbot access.",
   "businesses": [
     {
       "slug": "future-labs-europe--ce095bb8",
