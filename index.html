@@ -3,53 +3,350 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ComplexDot Business Directory</title>
-    <meta name="description" content="AI-ready business profiles and company catalog">
-    <meta name="robots" content="index, follow">
+    <title>ComplexDot Business Directory - AI-Ready B2B Profiles</title>
+    <meta name="description" content="Discover verified B2B company profiles. AI-ready business directory with 2 companies. Search by sector, country, products.">
+    <meta name="keywords" content="B2B directory, business profiles, company catalog, AI-ready, verified companies">
+    <meta name="robots" content="index, follow, max-snippet:-1">
+    <meta name="ai-robots" content="all">
+    <meta name="ai:usage" content="This directory contains verified B2B company profiles optimized for AI consumption. Each company has structured data available in JSON-LD and JSON formats.">
     <link rel="canonical" href="https://public.complexdot.com/">
+    <link rel="alternate" type="application/json" href="https://public.complexdot.com/all.json">
+
+    <meta property="og:title" content="ComplexDot Business Directory">
+    <meta property="og:description" content="AI-ready verified B2B company profiles">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://public.complexdot.com/">
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "ComplexDot Business Directory",
+  "description": "AI-ready verified B2B company profiles",
+  "numberOfItems": 2,
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "item": {
+        "@type": "Organization",
+        "@id": "https://public.complexdot.com/b/future-labs-europe--ce095bb8/",
+        "name": "Future Labs Europe ",
+        "description": "Future Labs Europe, part of the Futurelabs Enterprise group, recently acquired Britec Srl, consolidating over 15 years of specialized experience in the display, cable, and integrated solutions sector. This strategic move has significantly expanded the product portfolio, making it broader and more competitive, while strengthening technical and logistical support for customers, distributors, and partners on a national and European scale. The company positions itself as a reliable partner for diversified markets, offering customized solutions that combine flexibility and high-quality standards. The international team follows projects from the initial phases, transforming ideas into concrete, valuable products with a focus on innovation and continuous support.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "italy ",
+          "addressLocality": "dsfg"
+        },
+        "url": "https://public.complexdot.com/b/future-labs-europe--ce095bb8/",
+        "keywords": "display, cable, audio, consumer electronics, hospitality, education, italy, european market, technical support, logistics"
+      }
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "item": {
+        "@type": "Organization",
+        "@id": "https://public.complexdot.com/b/system-srl--23924d18/",
+        "name": "System SRL ",
+        "description": "System SRL is an Italian company specializing in the development and provision of management software solutions and integrated IT services for the national market. Our offerings include customizable and scalable business management software for companies of various sizes, from small businesses to medium-sized industries, as well as specific solutions for accounting firms. We also handle personnel management, including systems for payroll, attendance, and vehicle fleets.\r\n\r\nBeyond software, we provide professional cybersecurity services, hosting, housing, email server management, and other network services. We offer hardware support, corporate network installation, and training courses. To extend our coverage across Italy, we collaborate with a network of partners, including Sicom srl for accounting software, and participate in development consortia such as the one that created the ManGo software.",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "Italy ",
+          "addressLocality": "jhgjgj"
+        },
+        "url": "https://public.complexdot.com/b/system-srl--23924d18/",
+        "keywords": "management software, IT services, cybersecurity, network services, accounting software, personnel management, hosting, hardware support, Italy"
+      }
+    }
+  ]
+}
+    </script>
+
     <style>
+        :root {
+            --primary: #1a1a2e;
+            --accent: #0077b6;
+            --accent-hover: #005a8c;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+            --text: #333333;
+            --text-light: #666666;
+            --border: #e0e0e0;
+            --tag-bg: #e8f4f8;
+            --tag-text: #0077b6;
+        }
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
-               line-height: 1.6; color: #333; background: #f8f9fa; }
-        .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
-        header { background: #1a1a2e; color: white; padding: 40px 20px; text-align: center; }
-        h1 { font-size: 2rem; margin-bottom: 10px; }
-        .subtitle { opacity: 0.8; }
-        .business-card { background: white; border-radius: 8px; padding: 20px; 
-                         margin-bottom: 15px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
-        .business-card h2 { font-size: 1.2rem; margin-bottom: 5px; }
-        .business-card a { color: #0077b6; text-decoration: none; }
-        .business-card a:hover { text-decoration: underline; }
-        .meta { color: #666; font-size: 0.9rem; margin-bottom: 8px; }
-        .desc { color: #555; font-size: 0.95rem; }
-        footer { text-align: center; padding: 30px; color: #888; font-size: 0.85rem; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6; color: var(--text); background: var(--bg);
+        }
+
+        header {
+            background: var(--primary); color: white;
+            padding: 40px 20px; text-align: center;
+        }
+        header h1 { font-size: 2rem; margin-bottom: 8px; }
+        header .subtitle { opacity: 0.85; font-size: 1.1rem; }
+        header .stats { margin-top: 15px; font-size: 0.95rem; opacity: 0.75; }
+
+        .search-section {
+            background: white; padding: 25px 20px;
+            border-bottom: 1px solid var(--border);
+            position: sticky; top: 0; z-index: 100;
+        }
+        .search-container { max-width: 900px; margin: 0 auto; }
+        .search-box { display: flex; gap: 10px; margin-bottom: 15px; }
+        .search-box input {
+            flex: 1; padding: 12px 16px; font-size: 1rem;
+            border: 2px solid var(--border); border-radius: 8px;
+            outline: none; transition: border-color 0.2s;
+        }
+        .search-box input:focus { border-color: var(--accent); }
+        .search-box button {
+            padding: 12px 24px; background: var(--accent); color: white;
+            border: none; border-radius: 8px; font-size: 1rem;
+            cursor: pointer; transition: background 0.2s;
+        }
+        .search-box button:hover { background: var(--accent-hover); }
+
+        .filters { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+        .filters select {
+            padding: 8px 12px; border: 1px solid var(--border);
+            border-radius: 6px; font-size: 0.9rem; background: white;
+        }
+        .filters .clear-btn {
+            padding: 8px 16px; background: transparent;
+            border: 1px solid var(--border); border-radius: 6px;
+            cursor: pointer; font-size: 0.9rem;
+        }
+        .filters .clear-btn:hover { background: var(--bg); }
+
+        .container { max-width: 900px; margin: 0 auto; padding: 30px 20px; }
+        .results-info {
+            color: var(--text-light); margin-bottom: 20px;
+            display: flex; justify-content: space-between; align-items: center;
+        }
+
+        .business-card {
+            background: var(--card-bg); border-radius: 12px;
+            padding: 24px; margin-bottom: 20px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            border: 1px solid var(--border);
+            transition: box-shadow 0.2s, transform 0.2s;
+        }
+        .business-card:hover {
+            box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+            transform: translateY(-2px);
+        }
+        .card-header { display: flex; gap: 15px; align-items: flex-start; margin-bottom: 15px; }
+        .card-header .icon { font-size: 2rem; line-height: 1; }
+        .card-title { flex: 1; }
+        .card-title h2 { font-size: 1.3rem; margin-bottom: 4px; }
+        .card-title h2 a { color: var(--text); text-decoration: none; transition: color 0.2s; }
+        .card-title h2 a:hover { color: var(--accent); }
+        .card-title .meta { color: var(--text-light); font-size: 0.9rem; }
+
+        .desc { color: var(--text); font-size: 0.95rem; margin-bottom: 15px; line-height: 1.7; }
+
+        .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 15px; }
+        .tag {
+            background: var(--tag-bg); color: var(--tag-text);
+            padding: 4px 10px; border-radius: 4px; font-size: 0.8rem;
+        }
+
+        .offerings { color: var(--text-light); font-size: 0.9rem; margin-bottom: 15px; font-style: italic; }
+
+        .card-actions {
+            display: flex; gap: 10px; padding-top: 15px;
+            border-top: 1px solid var(--border);
+        }
+        .btn-primary {
+            padding: 8px 16px; background: var(--accent); color: white;
+            text-decoration: none; border-radius: 6px; font-size: 0.9rem;
+            transition: background 0.2s;
+        }
+        .btn-primary:hover { background: var(--accent-hover); }
+        .btn-secondary {
+            padding: 8px 16px; background: transparent; color: var(--accent);
+            text-decoration: none; border-radius: 6px; font-size: 0.9rem;
+            border: 1px solid var(--accent);
+        }
+        .btn-secondary:hover { background: var(--tag-bg); }
+
+        .ai-section {
+            background: #f0f7ff; border-radius: 8px; padding: 20px;
+            margin-top: 30px; border: 1px dashed var(--accent);
+        }
+        .ai-section h3 { color: var(--accent); margin-bottom: 10px; }
+        .ai-section p { font-size: 0.9rem; color: var(--text-light); }
+        .ai-section a { color: var(--accent); }
+
+        footer {
+            text-align: center; padding: 40px 20px;
+            color: var(--text-light); font-size: 0.9rem;
+            border-top: 1px solid var(--border); margin-top: 40px;
+        }
+        footer a { color: var(--accent); text-decoration: none; }
+
+        @media (max-width: 600px) {
+            .search-box { flex-direction: column; }
+            .filters { flex-direction: column; align-items: stretch; }
+            .card-header { flex-direction: column; gap: 10px; }
+        }
+
+        .no-results { text-align: center; padding: 60px 20px; color: var(--text-light); }
     </style>
 </head>
 <body>
     <header>
         <h1>ComplexDot Business Directory</h1>
-        <p class="subtitle">AI-ready company profiles</p>
+        <p class="subtitle">Verified B2B Profiles • AI-Ready Data</p>
+        <p class="stats">2 companies indexed</p>
     </header>
-    <div class="container">
-        <p style="margin-bottom: 20px; color: #666;">
-            2 verified business profiles available for AI and search indexing.
-        </p>
-        
-        <div class="business-card">
-            <h2><a href="/b/future-labs-europe--ce095bb8/">Future Labs Europe </a></h2>
-            <p class="meta">Manufacturing • italy </p>
-            <p class="desc">Future Labs Europe, part of the Futurelabs Enterprise group, recently acquired Britec Srl, consolidating over 15 years of specialized experience in th...</p>
+
+    <section class="search-section">
+        <div class="search-container">
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Search companies, products, services..." autocomplete="off">
+                <button onclick="performSearch()">Search</button>
+            </div>
+            <div class="filters">
+                <select id="sectorFilter" onchange="applyFilters()">
+                    <option value="">All Sectors</option><option value="Manufacturing">Manufacturing</option><option value="Software Company">Software Company</option>
+                </select>
+                <select id="countryFilter" onchange="applyFilters()">
+                    <option value="">All Countries</option><option value="Italy">Italy</option><option value="italy">italy</option>
+                </select>
+                <button class="clear-btn" onclick="clearFilters()">Clear Filters</button>
+            </div>
         </div>
-        
-        <div class="business-card">
-            <h2><a href="/b/system-srl--23924d18/">System SRL </a></h2>
-            <p class="meta">Software Company • Italy </p>
-            <p class="desc">System SRL is an Italian company specializing in the development and provision of management software solutions and integrated IT services for the nat...</p>
+    </section>
+
+    <main class="container">
+        <div class="results-info">
+            <span id="resultsCount">Showing 2 companies</span>
+            <a href="/all.json" title="Download all data as JSON">📥 Export JSON</a>
         </div>
-        
-    </div>
+
+        <div id="businessList">
+            
+    <article class="business-card" itemscope itemtype="https://schema.org/Organization">
+        <div class="card-header">
+            <span class="icon">🏭</span>
+            <div class="card-title">
+                <h2 itemprop="name"><a href="/b/future-labs-europe--ce095bb8/" itemprop="url">Future Labs Europe </a></h2>
+                <p class="meta">
+                    <span itemprop="industry">Manufacturing</span> •
+                    <span itemprop="addressCountry">italy </span>
+                </p>
+            </div>
+        </div>
+        <p class="desc" itemprop="description">Future Labs Europe, part of the Futurelabs Enterprise group, recently acquired Britec Srl, consolidating over 15 years of specialized experience in the display, cable, and integrated solutions sector. This strategic move has significantly expanded the product portfolio, making it broader and more competitive, while strengthening technical and logistical support for customers, distributors, and partners on a national and European scale. The company positions itself as a reliable partner for diversified markets, offering customized solutions that combine flexibility and high-quality standards. The international team follows projects from the initial phases, transforming ideas into concrete, valuable products with a focus on innovation and continuous support.</p>
+        <div class="tags"><span class="tag">display</span><span class="tag">cable</span><span class="tag">audio</span><span class="tag">consumer electronics</span><span class="tag">hospitality</span></div>
+        <p class="offerings">Products/Services: cables for audio</p>
+        <div class="card-actions">
+            <a href="/b/future-labs-europe--ce095bb8/" class="btn-primary">View Profile →</a>
+            <a href="/b/future-labs-europe--ce095bb8/data.json" class="btn-secondary">JSON</a>
+        </div>
+    </article>
+    
+    <article class="business-card" itemscope itemtype="https://schema.org/Organization">
+        <div class="card-header">
+            <span class="icon">💻</span>
+            <div class="card-title">
+                <h2 itemprop="name"><a href="/b/system-srl--23924d18/" itemprop="url">System SRL </a></h2>
+                <p class="meta">
+                    <span itemprop="industry">Software Company</span> •
+                    <span itemprop="addressCountry">Italy </span>
+                </p>
+            </div>
+        </div>
+        <p class="desc" itemprop="description">System SRL is an Italian company specializing in the development and provision of management software solutions and integrated IT services for the national market. Our offerings include customizable and scalable business management software for companies of various sizes, from small businesses to medium-sized industries, as well as specific solutions for accounting firms. We also handle personnel management, including systems for payroll, attendance, and vehicle fleets.
+
+Beyond software, we provide professional cybersecurity services, hosting, housing, email server management, and other network services. We offer hardware support, corporate network installation, and training courses. To extend our coverage across Italy, we collaborate with a network of partners, including Sicom srl for accounting software, and participate in development consortia such as the one that created the ManGo software.</p>
+        <div class="tags"><span class="tag">management software</span><span class="tag">IT services</span><span class="tag">cybersecurity</span><span class="tag">network services</span><span class="tag">accounting software</span></div>
+        <p class="offerings">Products/Services: firewall</p>
+        <div class="card-actions">
+            <a href="/b/system-srl--23924d18/" class="btn-primary">View Profile →</a>
+            <a href="/b/system-srl--23924d18/data.json" class="btn-secondary">JSON</a>
+        </div>
+    </article>
+    
+        </div>
+
+        <div id="noResults" class="no-results" style="display:none;">
+            <p>No companies match your search.</p>
+            <p>Try different keywords or clear filters.</p>
+        </div>
+
+        <section class="ai-section">
+            <h3>🤖 AI & Developer Access</h3>
+            <p>This directory is optimized for AI consumption. All data is available in structured formats:</p>
+            <ul style="margin: 10px 0 0 20px; font-size: 0.9rem;">
+                <li><strong>JSON-LD</strong>: Embedded schema.org data in every page</li>
+                <li><strong>JSON API</strong>: <a href="/all.json">/all.json</a> - Complete dataset</li>
+                <li><strong>Individual</strong>: /b/[company-slug]/data.json</li>
+                <li><strong>Sitemap</strong>: <a href="/sitemap.xml">/sitemap.xml</a></li>
+            </ul>
+        </section>
+    </main>
+
     <footer>
-        Powered by <a href="https://complexdot.com">ComplexDot</a> OQI Technology
+        <p>Powered by <a href="https://complexdot.com">ComplexDot</a> OQI Technology</p>
+        <p style="margin-top: 10px; font-size: 0.85rem;">Data updated automatically • Verified business profiles</p>
     </footer>
+
+    <script>
+        const businesses = [{"name": "Future Labs Europe ", "slug": "future-labs-europe--ce095bb8", "sector": "Manufacturing", "country": "italy ", "desc": "Future Labs Europe, part of the Futurelabs Enterprise group, recently acquired Britec Srl, consolidating over 15 years of specialized experience in the display, cable, and integrated solutions sector. This strategic move has significantly expanded the product portfolio, making it broader and more competitive, while strengthening technical and logistical support for customers, distributors, and partners on a national and European scale. The company positions itself as a reliable partner for diversified markets, offering customized solutions that combine flexibility and high-quality standards. The international team follows projects from the initial phases, transforming ideas into concrete, valuable products with a focus on innovation and continuous support.", "keywords": ["display", "cable", "audio", "consumer electronics", "hospitality", "education", "italy", "european market", "technical support", "logistics", "custom solutions"], "offerings": ["cables for audio"]}, {"name": "System SRL ", "slug": "system-srl--23924d18", "sector": "Software Company", "country": "Italy ", "desc": "System SRL is an Italian company specializing in the development and provision of management software solutions and integrated IT services for the national market. Our offerings include customizable and scalable business management software for companies of various sizes, from small businesses to medium-sized industries, as well as specific solutions for accounting firms. We also handle personnel management, including systems for payroll, attendance, and vehicle fleets.\r\n\r\nBeyond software, we provide professional cybersecurity services, hosting, housing, email server management, and other network services. We offer hardware support, corporate network installation, and training courses. To extend our coverage across Italy, we collaborate with a network of partners, including Sicom srl for accounting software, and participate in development consortia such as the one that created the ManGo software.", "keywords": ["management software", "IT services", "cybersecurity", "network services", "accounting software", "personnel management", "hosting", "hardware support", "Italy"], "offerings": ["firewall"]}];
+        const cards = document.querySelectorAll('.business-card');
+
+        function performSearch() { applyFilters(); }
+
+        function applyFilters() {
+            const query = document.getElementById('searchInput').value.toLowerCase();
+            const sector = document.getElementById('sectorFilter').value;
+            const country = document.getElementById('countryFilter').value;
+
+            let visibleCount = 0;
+
+            cards.forEach((card, index) => {
+                const biz = businesses[index];
+                const searchText = (
+                    biz.name + ' ' + biz.desc + ' ' +
+                    biz.keywords.join(' ') + ' ' + biz.offerings.join(' ')
+                ).toLowerCase();
+
+                const matchesQuery = !query || searchText.includes(query);
+                const matchesSector = !sector || biz.sector === sector;
+                const matchesCountry = !country || biz.country.trim() === country;
+
+                if (matchesQuery && matchesSector && matchesCountry) {
+                    card.style.display = 'block';
+                    visibleCount++;
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            document.getElementById('resultsCount').textContent =
+                visibleCount === businesses.length
+                    ? `Showing ${businesses.length} companies`
+                    : `Showing ${visibleCount} of ${businesses.length} companies`;
+
+            document.getElementById('noResults').style.display = visibleCount === 0 ? 'block' : 'none';
+        }
+
+        function clearFilters() {
+            document.getElementById('searchInput').value = '';
+            document.getElementById('sectorFilter').value = '';
+            document.getElementById('countryFilter').value = '';
+            applyFilters();
+        }
+
+        document.getElementById('searchInput').addEventListener('keypress', function(e) {
+            if (e.key === 'Enter') performSearch();
+        });
+    </script>
 </body>
 </html>

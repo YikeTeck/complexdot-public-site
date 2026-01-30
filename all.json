@@ -1,0 +1,137 @@
+{
+  "directory": "ComplexDot Business Directory",
+  "url": "https://public.complexdot.com",
+  "generated": "2026-01-30T09:57:46.417596",
+  "count": 2,
+  "businesses": [
+    {
+      "slug": "future-labs-europe--ce095bb8",
+      "company_name": "Future Labs Europe ",
+      "description_en": "Future Labs Europe, part of the Futurelabs Enterprise group, recently acquired Britec Srl, consolidating over 15 years of specialized experience in the display, cable, and integrated solutions sector. This strategic move has significantly expanded the product portfolio, making it broader and more competitive, while strengthening technical and logistical support for customers, distributors, and partners on a national and European scale. The company positions itself as a reliable partner for diversified markets, offering customized solutions that combine flexibility and high-quality standards. The international team follows projects from the initial phases, transforming ideas into concrete, valuable products with a focus on innovation and continuous support.",
+      "country": "italy ",
+      "city": "dsfg",
+      "region": "fgdsfg",
+      "business_type": "Manufacturing",
+      "industry_sector": "sdgsd",
+      "keywords": [
+        "display",
+        "cable",
+        "audio",
+        "consumer electronics",
+        "hospitality",
+        "education",
+        "italy",
+        "european market",
+        "technical support",
+        "logistics",
+        "custom solutions"
+      ],
+      "function_tags": [
+        "design",
+        "development",
+        "integration",
+        "support",
+        "acquisition"
+      ],
+      "technical_tags": [
+        "cable",
+        "rca",
+        "audio",
+        "connector",
+        "gold-plated",
+        "display",
+        "solution",
+        "logistics",
+        "technical support",
+        "portfolio management"
+      ],
+      "contact": {
+        "email": "fgfdgdgd",
+        "phone": "4543535",
+        "website": "https://dsfg",
+        "address": "dfgdg"
+      },
+      "offerings": [
+        {
+          "name": "cables for audio",
+          "type": "product",
+          "description": "RCA Cables gold plated",
+          "tags": [
+            "cables",
+            "RCA",
+            "audio"
+          ]
+        }
+      ],
+      "oqi_id": "ce095bb8-8f4b-4f8d-845b-b26e71bdd132",
+      "last_modified": "2025-12-16T00:57:49.748723"
+    },
+    {
+      "slug": "system-srl--23924d18",
+      "company_name": "System SRL ",
+      "description_en": "System SRL is an Italian company specializing in the development and provision of management software solutions and integrated IT services for the national market. Our offerings include customizable and scalable business management software for companies of various sizes, from small businesses to medium-sized industries, as well as specific solutions for accounting firms. We also handle personnel management, including systems for payroll, attendance, and vehicle fleets.\r\n\r\nBeyond software, we provide professional cybersecurity services, hosting, housing, email server management, and other network services. We offer hardware support, corporate network installation, and training courses. To extend our coverage across Italy, we collaborate with a network of partners, including Sicom srl for accounting software, and participate in development consortia such as the one that created the ManGo software.",
+      "country": "Italy ",
+      "city": "jhgjgj",
+      "region": "ghjgjg",
+      "business_type": "Software Company",
+      "industry_sector": "jhhgfhj",
+      "keywords": [
+        "management software",
+        "IT services",
+        "cybersecurity",
+        "network services",
+        "accounting software",
+        "personnel management",
+        "hosting",
+        "hardware support",
+        "Italy"
+      ],
+      "function_tags": [
+        "development",
+        "customization",
+        "integration",
+        "installation",
+        "training",
+        "support"
+      ],
+      "technical_tags": [
+        "software",
+        "firewall",
+        "32bit",
+        "port 22-443",
+        "management software",
+        "cybersecurity",
+        "hosting",
+        "housing",
+        "email server",
+        "network",
+        "hardware",
+        "payroll system",
+        "attendance system",
+        "fleet management",
+        "scalable software",
+        "customizable software"
+      ],
+      "contact": {
+        "email": "gdfgdfdfg",
+        "phone": "5234545425",
+        "website": "https://www.system.it",
+        "address": "dfgdsff"
+      },
+      "offerings": [
+        {
+          "name": "firewall",
+          "type": "product",
+          "description": "Firewall - 32bit in port 22-443",
+          "tags": [
+            "software",
+            "PC",
+            "Firewall"
+          ]
+        }
+      ],
+      "oqi_id": "23924d18-8bd9-408f-bb2c-ba6bf390c75e",
+      "last_modified": "2025-12-18T01:50:20.995819"
+    }
+  ]
+}
