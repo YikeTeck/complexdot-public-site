@@ -13,4 +13,11 @@ Allow: /
 User-agent: Googlebot
 Allow: /
 
+User-agent: Bingbot
+Allow: /
+
+# AI-Ready Directory: All data accessible at root URL
+# Complete JSON dataset: /all.json
+# Sitemap: /sitemap.xml
+
 Sitemap: https://public.complexdot.com/sitemap.xml
