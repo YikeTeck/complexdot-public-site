@@ -4,7 +4,7 @@
   "description": "AI-Ready B2B Company Profiles - Complete Dataset",
   "description_zh": "AI就绪B2B企业档案 - 完整数据集",
   "url": "https://public.complexdot.com",
-  "generated": "2026-02-04T09:54:12.730790",
+  "generated": "2026-02-11T02:35:02.505248",
   "count": 2,
   "businesses": [
     {
@@ -70,71 +70,76 @@
       "last_modified": "2025-12-16T00:57:49.748723"
     },
     {
-      "slug": "system-srl--23924d18",
-      "company_name": "System SRL ",
-      "description_en": "System SRL is an Italian company specializing in the development and provision of management software solutions and integrated IT services for the national market. Our offerings include customizable and scalable business management software for companies of various sizes, from small businesses to medium-sized industries, as well as specific solutions for accounting firms. We also handle personnel management, including systems for payroll, attendance, and vehicle fleets.\r\n\r\nBeyond software, we provide professional cybersecurity services, hosting, housing, email server management, and other network services. We offer hardware support, corporate network installation, and training courses. To extend our coverage across Italy, we collaborate with a network of partners, including Sicom srl for accounting software, and participate in development consortia such as the one that created the ManGo software.",
-      "country": "Italy ",
-      "city": "jhgjgj",
-      "region": "ghjgjg",
-      "business_type": "Software Company",
-      "industry_sector": "jhhgfhj",
+      "slug": "texian-co-ltd--24a82a0e",
+      "company_name": "Texian Co. LTD",
+      "description_en": "Shenzhen Outdoor Special Display Equipment Co., Ltd. is a specialized provider focused on the design, manufacturing, and integration of outdoor special display equipment. Based in Guangming New District, Shenzhen, the company operates a 3,000-square-meter modern factory with over 50 employees. It is equipped with advanced machinery including large laser cutters, high-precision CNC punching machines, CNC bending machines, digital hydraulic shears, CNC milling machines, and spray testing facilities, enabling complete in-house production from sheet metal processing to final assembly. The company's core offerings encompass commercial display equipment, outdoor high-brightness display sheet metal, customized advertising kiosks, and splicing monitor kits. It provides a comprehensive one-stop service covering design and R&D, OEM manufacturing, painting, and full integration of outdoor high-brightness display systems. With dedicated teams for sheet metal engineering, display integration, thermal management, waterproofing, and safety design, the company serves as a reliable long-term partner in the digital signage industry.",
+      "country": "China ",
+      "city": "Shenzhen ",
+      "region": "Guangdong ",
+      "business_type": "Manufacturing",
+      "industry_sector": "Display TFT ",
       "keywords": [
-        "management software",
-        "IT services",
-        "cybersecurity",
-        "network services",
-        "accounting software",
-        "personnel management",
-        "hosting",
-        "hardware support",
-        "Italy"
+        "outdoor display",
+        "digital signage",
+        "sheet metal fabrication",
+        "high-brightness display",
+        "advertising kiosk",
+        "industrial control display",
+        "smart city",
+        "public display",
+        "cnc manufacturing",
+        "display integration"
       ],
       "function_tags": [
-        "development",
-        "customization",
+        "design",
+        "manufacturing",
         "integration",
-        "installation",
-        "training",
-        "support"
+        "testing",
+        "research and development",
+        "painting"
       ],
       "technical_tags": [
-        "software",
-        "firewall",
-        "32bit",
-        "port 22-443",
-        "management software",
-        "cybersecurity",
-        "hosting",
-        "housing",
-        "email server",
-        "network",
-        "hardware",
-        "payroll system",
-        "attendance system",
-        "fleet management",
-        "scalable software",
-        "customizable software"
+        "laser cutting",
+        "cnc punching",
+        "cnc bending",
+        "digital hydraulic shearing",
+        "cnc milling",
+        "sheet metal processing",
+        "spray testing",
+        "thermal management",
+        "waterproof design",
+        "safety design",
+        "display integration",
+        "touchscreen",
+        "tft",
+        "hmi",
+        "high-brightness",
+        "capacitive touch",
+        "resistive touch",
+        "industrial control",
+        "oem"
       ],
       "contact": {
-        "email": "gdfgdfdfg",
-        "phone": "5234545425",
-        "website": "https://www.system.it",
-        "address": "dfgdsff"
+        "email": "sales@sztexian.com",
+        "phone": "+86 489489894",
+        "website": "http://www.sztexian.com",
+        "address": "my Street  123"
       },
       "offerings": [
         {
-          "name": "firewall",
+          "name": "TFT Display",
           "type": "product",
-          "description": "Firewall - 32bit in port 22-443",
+          "description": "Size: 15\", Resolution: 1980x740, Touch: Capacitive/Resistive, Brightness: 1000 nits",
           "tags": [
-            "software",
-            "PC",
-            "Firewall"
+            "display",
+            "TFT",
+            "touchscreen",
+            "HMI"
           ]
         }
       ],
-      "oqi_id": "23924d18-8bd9-408f-bb2c-ba6bf390c75e",
-      "last_modified": "2025-12-18T01:50:20.995819"
+      "oqi_id": "24a82a0e-33b6-467f-a11a-6ae423b74599",
+      "last_modified": "2026-02-10T08:23:38.610736"
     }
   ]
 }
