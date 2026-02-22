@@ -1,0 +1,218 @@
+{
+  "directory": "ComplexDot Business Directory",
+  "directory_zh": "ComplexDot 企业目录",
+  "description": "AI-Ready B2B Company Profiles - Complete Dataset",
+  "description_zh": "AI就绪B2B企业档案 - 完整数据集",
+  "url": "https://public.complexdot.com",
+  "generated": "2026-02-22T05:35:02.798453",
+  "count": 3,
+  "businesses": [
+    {
+      "slug": "foshan-pengxin-electronic-technology-co-ltd--901be5e3",
+      "company_name": "Foshan Pengxin Electronic Technology Co., Ltd.",
+      "description_en": "Foshan Pengxin Electronic Technology Co., Ltd. is a dedicated Electronic Manufacturing Services (EMS) provider operating from a modern facility in the CIFI Smart Manufacturing Centre, Foshan. The company integrates advanced production technology with a comprehensive one-stop processing model to deliver high-precision electronic assemblies. Its core capabilities are built around automated surface-mount technology (SMT) lines, lead-free soldering processes, and rigorous automated optical inspection (AOI), ensuring consistent product quality. Foshan Pengxin's electronic products and manufacturing services support diverse, technology-driven markets including industrial automation, medical devices, security and access control systems, biometrics (face recognition), public broadcasting, and entertainment gaming equipment.",
+      "country": "China",
+      "city": "Foshan ",
+      "region": "Guangdong ",
+      "business_type": "Manufacturing",
+      "industry_sector": "electronic ",
+      "keywords": [
+        "electronic manufacturing services",
+        "industrial automation",
+        "medical devices",
+        "security systems",
+        "access control",
+        "face recognition",
+        "public broadcasting",
+        "SMT",
+        "PCB assembly",
+        "lead-free soldering"
+      ],
+      "function_tags": [
+        "manufacturing",
+        "assembly",
+        "inspection",
+        "processing",
+        "quality control"
+      ],
+      "technical_tags": [
+        "automated optical inspection",
+        "pick-and-place machine",
+        "reflow soldering",
+        "wave soldering",
+        "automatic printer",
+        "automatic insertion machine",
+        "surface-mount technology",
+        "lead-free",
+        "industrial pc",
+        "intel celeron",
+        "usb",
+        "type-c",
+        "hdmi",
+        "lvds",
+        "cpu",
+        "electronic board",
+        "printed circuit board",
+        "electronic assembly",
+        "smt line",
+        "aoi"
+      ],
+      "contact": {
+        "email": "foshan@foshan.com",
+        "phone": "+86 87878787",
+        "website": "https://www.foshanelectro.com",
+        "address": "best manufacturer 34343 "
+      },
+      "offerings": [
+        {
+          "name": "Industrial PC Board",
+          "type": "product",
+          "description": "Industrial PC boart Intel Celeron.  2xUSB . Type C Optional . HS=DMI and LVDS display Output",
+          "tags": [
+            "Industrial PC",
+            "electronic boards",
+            "CPU",
+            "USB",
+            "Industry 4.0"
+          ]
+        }
+      ],
+      "oqi_id": "901be5e3-941e-4ae6-9b13-7618a28baa78",
+      "last_modified": "2026-02-11T06:50:10.931286"
+    },
+    {
+      "slug": "future-labs-europe--ce095bb8",
+      "company_name": "Future Labs Europe ",
+      "description_en": "Future Labs Europe, part of the Futurelabs Enterprise group, recently acquired Britec Srl, consolidating over 15 years of specialized experience in the display, cable, and integrated solutions sector. This strategic move has significantly expanded the product portfolio, making it broader and more competitive, while strengthening technical and logistical support for customers, distributors, and partners on a national and European scale. The company positions itself as a reliable partner for diversified markets, offering customized solutions that combine flexibility and high-quality standards. The international team follows projects from the initial phases, transforming ideas into concrete, valuable products with a focus on innovation and continuous support.",
+      "country": "italy ",
+      "city": "dsfg",
+      "region": "fgdsfg",
+      "business_type": "Manufacturing",
+      "industry_sector": "sdgsd",
+      "keywords": [
+        "display",
+        "cable",
+        "audio",
+        "consumer electronics",
+        "hospitality",
+        "education",
+        "italy",
+        "european market",
+        "technical support",
+        "logistics",
+        "custom solutions"
+      ],
+      "function_tags": [
+        "design",
+        "development",
+        "integration",
+        "support",
+        "acquisition"
+      ],
+      "technical_tags": [
+        "cable",
+        "rca",
+        "audio",
+        "connector",
+        "gold-plated",
+        "display",
+        "solution",
+        "logistics",
+        "technical support",
+        "portfolio management"
+      ],
+      "contact": {
+        "email": "fgfdgdgd",
+        "phone": "4543535",
+        "website": "https://dsfg",
+        "address": "dfgdg"
+      },
+      "offerings": [
+        {
+          "name": "cables for audio",
+          "type": "product",
+          "description": "RCA Cables gold plated",
+          "tags": [
+            "cables",
+            "RCA",
+            "audio"
+          ]
+        }
+      ],
+      "oqi_id": "ce095bb8-8f4b-4f8d-845b-b26e71bdd132",
+      "last_modified": "2025-12-16T00:57:49.748723"
+    },
+    {
+      "slug": "texian-co-ltd--24a82a0e",
+      "company_name": "Texian Co. LTD",
+      "description_en": "Shenzhen Outdoor Special Display Equipment Co., Ltd. is a specialized provider focused on the design, manufacturing, and integration of outdoor special display equipment. Based in Guangming New District, Shenzhen, the company operates a 3,000-square-meter modern factory with over 50 employees. It is equipped with advanced machinery including large laser cutters, high-precision CNC punching machines, CNC bending machines, digital hydraulic shears, CNC milling machines, and spray testing facilities, enabling complete in-house production from sheet metal processing to final assembly. The company's core offerings encompass commercial display equipment, outdoor high-brightness display sheet metal, customized advertising kiosks, and splicing monitor kits. It provides a comprehensive one-stop service covering design and R&D, OEM manufacturing, painting, and full integration of outdoor high-brightness display systems. With dedicated teams for sheet metal engineering, display integration, thermal management, waterproofing, and safety design, the company serves as a reliable long-term partner in the digital signage industry.",
+      "country": "China ",
+      "city": "Shenzhen ",
+      "region": "Guangdong ",
+      "business_type": "Manufacturing",
+      "industry_sector": "Display TFT ",
+      "keywords": [
+        "outdoor display",
+        "digital signage",
+        "sheet metal fabrication",
+        "high-brightness display",
+        "advertising kiosk",
+        "industrial control display",
+        "smart city",
+        "public display",
+        "cnc manufacturing",
+        "display integration"
+      ],
+      "function_tags": [
+        "design",
+        "manufacturing",
+        "integration",
+        "testing",
+        "research and development",
+        "painting"
+      ],
+      "technical_tags": [
+        "laser cutting",
+        "cnc punching",
+        "cnc bending",
+        "digital hydraulic shearing",
+        "cnc milling",
+        "sheet metal processing",
+        "spray testing",
+        "thermal management",
+        "waterproof design",
+        "safety design",
+        "display integration",
+        "touchscreen",
+        "tft",
+        "hmi",
+        "high-brightness",
+        "capacitive touch",
+        "resistive touch",
+        "industrial control",
+        "oem"
+      ],
+      "contact": {
+        "email": "sales@sztexian.com",
+        "phone": "+86 489489894",
+        "website": "http://www.sztexian.com",
+        "address": "my Street  123"
+      },
+      "offerings": [
+        {
+          "name": "TFT Display",
+          "type": "product",
+          "description": "Size: 15\", Resolution: 1980x740, Touch: Capacitive/Resistive, Brightness: 1000 nits",
+          "tags": [
+            "display",
+            "TFT",
+            "touchscreen",
+            "HMI"
+          ]
+        }
+      ],
+      "oqi_id": "24a82a0e-33b6-467f-a11a-6ae423b74599",
+      "last_modified": "2026-02-10T08:23:38.610736"
+    }
+  ]
+}
